@@ -1,0 +1,35 @@
+/* components/accordion.css */
+.accordion {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  background-color: indigo;
+}
+
+.accordion-title.active {
+  background-color: indigo;
+}
+
+.accordion-icon {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.accordion-content {
+  padding: 10px;
+}
+
