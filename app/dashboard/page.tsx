@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { enableKeplr, getAtomBalance, getAtomDelegations } from '/auth/Connect-Keplr/keplr.api';
+import { enableKeplr, getAtomBalance, getAtomDelegations } from '@/auth/connect-keplr/keplr.api';
 
 export default function Connect() {
   const [isConnected, setIsConnected] = useState(false);

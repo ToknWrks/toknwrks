@@ -19,7 +19,9 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",  // Add this line
     "paths": {
+      "@/auth/*": ["auth/*"],  // Adjust your path as needed
       "@/*": ["./*"]
     }
   },
