@@ -43,8 +43,8 @@ interface ChainInfo {
 const cosmosHubChainInfo: ChainInfo = {
   chainId: 'cosmoshub-4',
   chainName: 'Cosmos Hub',
-  rpcEndpoint: 'https://cosmos-hub-rpc.alltheblocks.net:443',
-  restEndpoint: 'https://cosmos-hub-rest.alltheblocks.net:443',
+  rpcEndpoint: 'https://lcd-cosmoshub.keplr.app',
+  restEndpoint: 'https://lcd-cosmoshub.keplr.app/rest',
   stakeCurrency: {
     coinDenom: 'ATOM',
     coinMinimalDenom: 'uatom',

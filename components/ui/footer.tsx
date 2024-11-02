@@ -205,13 +205,13 @@ export default function Footer() {
             </div>
             <div className="text-sm">
               <p className="mb-3 text-indigo-200/65">
-                © Cruip.com
+                © illuminati.co
                 <span className="text-gray-700"> · </span>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="https://illuminati.co"
                 >
-                  Terms
+                  Go
                 </a>
               </p>
               <ul className="inline-flex gap-1">
@@ -248,7 +248,7 @@ export default function Footer() {
                 <li>
                   <a
                     className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
-                    href="#0"
+                    href="https://github.com/toknwrks"
                     aria-label="Github"
                   >
                     <svg
