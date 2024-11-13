@@ -41,7 +41,7 @@ export const getAtomBalance = async (address: string): Promise<string | null> =>
   const data = await response.json();
   const atomBalance = data.balances.find((balance: any) => balance.denom === 'uatom');
   
-  return atomBalance ? (parseFloat(atomBalance.amount) / 1e6).toFixed(1.9) : '0';
+  return atomBalance ? (parseFloat(atomBalance.amount) / 1e6).toFixed(2) : '0';
 };
 
 export const connectKeplr = async () => {
