@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@babel/core": "^7.26.0",
+    "@cosmjs/cosmwasm-stargate": "0.32.x",
     "@cosmjs/proto-signing": "^0.32.4",
     "@cosmjs/stargate": "^0.32.4",
+    "@cosmjs/tendermint-rpc": "0.32.x",
     "@cosmos-kit/keplr": "^2.14.1",
     "@cosmos-kit/react": "^2.20.1",
     "@fontsource/ibm-plex-mono": "^5.1.0",
@@ -19,6 +21,7 @@
     "@improbable-eng/grpc-web": "^0.15.0",
     "@interchain-ui/react": "^1.26.1",
     "@keplr-wallet/types": "^0.12.156",
+    "@leapwallet/elements": "^1.7.9",
     "@skip-go/client": "^0.14.4",
     "@skip-go/widget": "^3.0.11",
     "@tanstack/react-query": "^5.59.20",
